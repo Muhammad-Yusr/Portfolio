@@ -2,8 +2,6 @@ import Navigation from "@/components/Navigation";
 import PageHeader from "@/components/PageHeader";
 
 import livingroom from "@/assets/3d/livingroom.png";
-import oranz from "@/assets/3d/oranz.png";
-import applz from "@/assets/3d/applz.png";
 import bedroom from "@/assets/3d/bedroom.png";
 import liminal from "@/assets/3d/liminal.png";
 import animation from "@/assets/3d/animation.mp4";
@@ -15,8 +13,6 @@ type MediaItem = {
 
 const mediaItems: MediaItem[] = [
   { src: livingroom, type: "image" },
-  { src: oranz, type: "image" },
-  { src: applz, type: "image" },
   { src: animation, type: "video" },
   { src: bedroom, type: "image" },
   { src: liminal, type: "image" },
