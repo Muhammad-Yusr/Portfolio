@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import PageHeader from "@/components/PageHeader";
-
+import banner from "@/assets/3d/banner.png"
 import livingroom from "@/assets/3d/livingroom.png";
 import bedroom from "@/assets/3d/bedroom.png";
 import liminal from "@/assets/3d/liminal.png";
@@ -13,6 +13,7 @@ type MediaItem = {
 
 const mediaItems: MediaItem[] = [
   { src: livingroom, type: "image" },
+  { src: banner, type: "image" },
   { src: animation, type: "video" },
   { src: bedroom, type: "image" },
   { src: liminal, type: "image" },
