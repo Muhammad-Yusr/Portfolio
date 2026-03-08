@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Reading Tracker",
-    description: "Check the Python files to know required libraries. Launch app.py (main.py required but not supposed to be launched). So far this is just a fillable form using PyQt5 for UI and OpenLibraryAPI for giving book search suggestions (and potentially book cover images)...",
+    description: "Check the Python files to know required libraries. Launch app.py (main.py required but not supposed to be launched). So far you can add books (Title, Author, Category, Progress).",
     tags: ["Python", "PyQt5", "OpenLibrary API"],
     github: "https://github.com/Muhammad-Yusr/Reading-Tracker",
   },
